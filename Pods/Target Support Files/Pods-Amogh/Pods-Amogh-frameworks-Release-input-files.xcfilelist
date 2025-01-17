@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Amogh/Pods-Amogh-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BSImagePicker/BSImagePicker.framework
+${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MediaWatermark/MediaWatermark.framework

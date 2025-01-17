@@ -1,9 +1,9 @@
 //
 //  MultipleVideoLooper.swift
-//  TestingVideo
+//  Amogh
 //
-//  Created by Chandra Sekhar Ravi on 29/05/2020.
-//  Copyright © 2020 Chandra Sekhar Ravi. All rights reserved.
+//  Created by Amogh on 13/06/2020.
+//  Copyright © 2020 Amogh. All rights reserved.
 //
 
 import UIKit
@@ -43,12 +43,12 @@ class MultipleVideoLooper: NSObject, MultipleVideoLooperProtocol {
         for clip in clips {
             let playerItem = AVPlayerItem(asset: clip)
             player.insert(playerItem, after: player.items().last)
-            token = player.observe(\.currentItem) { player, _ in
-                if player.items().count == 1
-                {
-                    self.addAllVideosToPlayer()
-                }
-        }
+//            token = player.observe(\.currentItem) { player, _ in
+//                if player.items().count == 1
+//                {
+//                    self.addAllVideosToPlayer()
+      //          }
+ //       }
             
         }
     }

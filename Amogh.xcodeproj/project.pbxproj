@@ -3,29 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C4DB41E2496AF44002E0497 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DB41D2496AF44002E0497 /* icon.png */; };
+		7CA063D124975FD0001A9F6F /* videopica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA063D024975FD0001A9F6F /* videopica.jpeg */; };
 		7CDE80692495642A002051C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE80682495642A002051C2 /* AppDelegate.swift */; };
-		7CDE806B2495642A002051C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE806A2495642A002051C2 /* SceneDelegate.swift */; };
-		7CDE806D2495642A002051C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE806C2495642A002051C2 /* ViewController.swift */; };
+		7CDE806D2495642A002051C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE806C2495642A002051C2 /* HomeViewController.swift */; };
 		7CDE80702495642A002051C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE806E2495642A002051C2 /* Main.storyboard */; };
 		7CDE80732495642A002051C2 /* Amogh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE80712495642A002051C2 /* Amogh.xcdatamodeld */; };
 		7CDE80752495642B002051C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE80742495642B002051C2 /* Assets.xcassets */; };
 		7CDE80782495642B002051C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE80762495642B002051C2 /* LaunchScreen.storyboard */; };
+		7CDE808024956703002051C2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE807F24956703002051C2 /* BaseViewController.swift */; };
+		7CDE808324956800002051C2 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE808124956800002051C2 /* Folder+CoreDataClass.swift */; };
+		7CDE808424956800002051C2 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE808224956800002051C2 /* Folder+CoreDataProperties.swift */; };
+		7CDE808624956836002051C2 /* FolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE808524956836002051C2 /* FolderCell.swift */; };
+		7CDE8089249568BB002051C2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE8087249568BA002051C2 /* DataManager.swift */; };
+		7CDE808A249568BB002051C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE8088249568BB002051C2 /* Constants.swift */; };
+		7CDE808C24956927002051C2 /* FolderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE808B24956927002051C2 /* FolderDetailViewController.swift */; };
+		7CDE808E24956E2A002051C2 /* PHAssetConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE808D24956E2A002051C2 /* PHAssetConverter.swift */; };
+		7CDE809024956E7B002051C2 /* AssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE808F24956E7B002051C2 /* AssetCell.swift */; };
+		7CDE809324956F15002051C2 /* MultipleVideoLooper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE809124956F15002051C2 /* MultipleVideoLooper.swift */; };
+		7CDE809424956F15002051C2 /* SingleVideoLooper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE809224956F15002051C2 /* SingleVideoLooper.swift */; };
+		F1AE7865357A2F8C69848980 /* Pods_Amogh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6D3BCBDA9225C975636C87 /* Pods_Amogh.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CDE80652495642A002051C2 /* Amogh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amogh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7405D67A202BCCC45B927CB9 /* Pods-Amogh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amogh.release.xcconfig"; path = "Target Support Files/Pods-Amogh/Pods-Amogh.release.xcconfig"; sourceTree = "<group>"; };
+		7C4DB41D2496AF44002E0497 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7CA063D024975FD0001A9F6F /* videopica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = videopica.jpeg; sourceTree = "<group>"; };
+		7CDE80652495642A002051C2 /* VideoPica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDE80682495642A002051C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CDE806A2495642A002051C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CDE806C2495642A002051C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CDE806C2495642A002051C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7CDE806F2495642A002051C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CDE80722495642A002051C2 /* Amogh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amogh.xcdatamodel; sourceTree = "<group>"; };
 		7CDE80742495642B002051C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CDE80772495642B002051C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CDE80792495642B002051C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDE807F24956703002051C2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7CDE808124956800002051C2 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7CDE808224956800002051C2 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7CDE808524956836002051C2 /* FolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCell.swift; sourceTree = "<group>"; };
+		7CDE8087249568BA002051C2 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7CDE8088249568BB002051C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7CDE808B24956927002051C2 /* FolderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailViewController.swift; sourceTree = "<group>"; };
+		7CDE808D24956E2A002051C2 /* PHAssetConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAssetConverter.swift; sourceTree = "<group>"; };
+		7CDE808F24956E7B002051C2 /* AssetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetCell.swift; sourceTree = "<group>"; };
+		7CDE809124956F15002051C2 /* MultipleVideoLooper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleVideoLooper.swift; sourceTree = "<group>"; };
+		7CDE809224956F15002051C2 /* SingleVideoLooper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleVideoLooper.swift; sourceTree = "<group>"; };
+		9DFC47D88167DB08D270D168 /* Pods-Amogh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amogh.debug.xcconfig"; path = "Target Support Files/Pods-Amogh/Pods-Amogh.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6D3BCBDA9225C975636C87 /* Pods_Amogh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amogh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AE7865357A2F8C69848980 /* Pods_Amogh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,13 +73,15 @@
 			children = (
 				7CDE80672495642A002051C2 /* Amogh */,
 				7CDE80662495642A002051C2 /* Products */,
+				F6FE9C480E5195EC59621962 /* Pods */,
+				A49D45DB8199091A66149850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7CDE80662495642A002051C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CDE80652495642A002051C2 /* Amogh.app */,
+				7CDE80652495642A002051C2 /* VideoPica.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +89,21 @@
 		7CDE80672495642A002051C2 /* Amogh */ = {
 			isa = PBXGroup;
 			children = (
+				7C4DB41D2496AF44002E0497 /* icon.png */,
+				7CA063D024975FD0001A9F6F /* videopica.jpeg */,
+				7CDE808124956800002051C2 /* Folder+CoreDataClass.swift */,
+				7CDE808224956800002051C2 /* Folder+CoreDataProperties.swift */,
+				7CDE808D24956E2A002051C2 /* PHAssetConverter.swift */,
 				7CDE80682495642A002051C2 /* AppDelegate.swift */,
-				7CDE806A2495642A002051C2 /* SceneDelegate.swift */,
-				7CDE806C2495642A002051C2 /* ViewController.swift */,
+				7CDE807F24956703002051C2 /* BaseViewController.swift */,
+				7CDE806C2495642A002051C2 /* HomeViewController.swift */,
+				7CDE808B24956927002051C2 /* FolderDetailViewController.swift */,
+				7CDE808524956836002051C2 /* FolderCell.swift */,
+				7CDE808F24956E7B002051C2 /* AssetCell.swift */,
+				7CDE8088249568BB002051C2 /* Constants.swift */,
+				7CDE8087249568BA002051C2 /* DataManager.swift */,
+				7CDE809124956F15002051C2 /* MultipleVideoLooper.swift */,
+				7CDE809224956F15002051C2 /* SingleVideoLooper.swift */,
 				7CDE806E2495642A002051C2 /* Main.storyboard */,
 				7CDE80742495642B002051C2 /* Assets.xcassets */,
 				7CDE80762495642B002051C2 /* LaunchScreen.storyboard */,
@@ -70,6 +113,23 @@
 			path = Amogh;
 			sourceTree = "<group>";
 		};
+		A49D45DB8199091A66149850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6D3BCBDA9225C975636C87 /* Pods_Amogh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6FE9C480E5195EC59621962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC47D88167DB08D270D168 /* Pods-Amogh.debug.xcconfig */,
+				7405D67A202BCCC45B927CB9 /* Pods-Amogh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CDE807C2495642B002051C2 /* Build configuration list for PBXNativeTarget "Amogh" */;
 			buildPhases = (
+				BE1B41B9C65FEA1A866AB911 /* [CP] Check Pods Manifest.lock */,
 				7CDE80612495642A002051C2 /* Sources */,
 				7CDE80622495642A002051C2 /* Frameworks */,
 				7CDE80632495642A002051C2 /* Resources */,
+				08A95AD899E5881C7521605D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +149,7 @@
 			);
 			name = Amogh;
 			productName = Amogh;
-			productReference = 7CDE80652495642A002051C2 /* Amogh.app */;
+			productReference = 7CDE80652495642A002051C2 /* VideoPica.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,22 +191,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CDE80782495642B002051C2 /* LaunchScreen.storyboard in Resources */,
+				7C4DB41E2496AF44002E0497 /* icon.png in Resources */,
 				7CDE80752495642B002051C2 /* Assets.xcassets in Resources */,
+				7CA063D124975FD0001A9F6F /* videopica.jpeg in Resources */,
 				7CDE80702495642A002051C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08A95AD899E5881C7521605D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amogh/Pods-Amogh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amogh/Pods-Amogh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amogh/Pods-Amogh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE1B41B9C65FEA1A866AB911 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amogh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CDE80612495642A002051C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDE806D2495642A002051C2 /* ViewController.swift in Sources */,
+				7CDE806D2495642A002051C2 /* HomeViewController.swift in Sources */,
+				7CDE8089249568BB002051C2 /* DataManager.swift in Sources */,
+				7CDE808C24956927002051C2 /* FolderDetailViewController.swift in Sources */,
+				7CDE808624956836002051C2 /* FolderCell.swift in Sources */,
+				7CDE808424956800002051C2 /* Folder+CoreDataProperties.swift in Sources */,
+				7CDE809324956F15002051C2 /* MultipleVideoLooper.swift in Sources */,
+				7CDE808024956703002051C2 /* BaseViewController.swift in Sources */,
+				7CDE809024956E7B002051C2 /* AssetCell.swift in Sources */,
+				7CDE808324956800002051C2 /* Folder+CoreDataClass.swift in Sources */,
 				7CDE80692495642A002051C2 /* AppDelegate.swift in Sources */,
+				7CDE808E24956E2A002051C2 /* PHAssetConverter.swift in Sources */,
 				7CDE80732495642A002051C2 /* Amogh.xcdatamodeld in Sources */,
-				7CDE806B2495642A002051C2 /* SceneDelegate.swift in Sources */,
+				7CDE809424956F15002051C2 /* SingleVideoLooper.swift in Sources */,
+				7CDE808A249568BB002051C2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,6 +402,7 @@
 		};
 		7CDE807D2495642B002051C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFC47D88167DB08D270D168 /* Pods-Amogh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chandu.Amogh;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VideoPica;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +421,7 @@
 		};
 		7CDE807E2495642B002051C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7405D67A202BCCC45B927CB9 /* Pods-Amogh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chandu.Amogh;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VideoPica;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

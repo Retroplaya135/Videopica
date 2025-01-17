@@ -1,9 +1,9 @@
 //
 //  AssetCell.swift
-//  VideoPlayer
+//  Amogh
 //
-//  Created by Chandra Sekhar Ravi on 20/05/2020.
-//  Copyright © 2020 Chandra Sekhar Ravi. All rights reserved.
+//  Created by Amogh on 13/06/2020.
+//  Copyright © 2020 Amogh. All rights reserved.
 //
 
 import UIKit

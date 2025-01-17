@@ -1,0 +1,24 @@
+PODS:
+  - BSImagePicker (3.2.0)
+  - JGProgressHUD (2.1)
+  - MediaWatermark (0.4.0)
+
+DEPENDENCIES:
+  - BSImagePicker (~> 3.1)
+  - JGProgressHUD
+  - MediaWatermark
+
+SPEC REPOS:
+  trunk:
+    - BSImagePicker
+    - JGProgressHUD
+    - MediaWatermark
+
+SPEC CHECKSUMS:
+  BSImagePicker: 1c0d14fa6f1b55380cd49cbebe47584f10e180c6
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  MediaWatermark: d67db91deaaa9403220899adfb59c80221a02a7d
+
+PODFILE CHECKSUM: 2a004d6dbb5664dbfc145f569fad3c4bd4ba7751
+
+COCOAPODS: 1.9.0
