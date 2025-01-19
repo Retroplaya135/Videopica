@@ -75,3 +75,21 @@ Ensure you have the following:
   multipleLooper.start(in: self, and: true)
   ```
 
+
+
+## Code Overview
+
+### Core Components
+
+1. **SingleVideoLooper**:
+   - Handles playback of a single video in a loop.
+   - Automatically resets the video to the beginning upon completion.
+
+2. **MultipleVideoLooper**:
+   - Handles playback of multiple videos.
+   - Supports both sequential playback and looping.
+
+3. **PHAssetConverter**:
+   - Converts `PHAsset` objects into `AVAsset` for use with video playback.
+   - Generates thumbnails for video previews.
+
