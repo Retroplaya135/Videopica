@@ -66,3 +66,12 @@ Ensure you have the following:
   let videoLooper = SingleVideoLooper(asset: yourAVAsset)
   videoLooper.start(in: self, andloop: true)
   ```
+
+
+#### Multiple Video Playback
+- Play multiple videos sequentially or in a loop using the `MultipleVideoLooper` class:
+  ```swift
+  let multipleLooper = MultipleVideoLooper(assetItems: [asset1, asset2, asset3])
+  multipleLooper.start(in: self, and: true)
+  ```
+
