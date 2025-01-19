@@ -93,3 +93,19 @@ Ensure you have the following:
    - Converts `PHAsset` objects into `AVAsset` for use with video playback.
    - Generates thumbnails for video previews.
 
+
+
+## Example Code
+
+### Single Video Playback
+```swift
+let videoLooper = SingleVideoLooper(asset: yourAVAsset)
+videoLooper.start(in: self, andloop: true)
+```
+
+### Multiple Video Playback
+```swift
+let multipleLooper = MultipleVideoLooper(assetItems: [asset1, asset2, asset3])
+multipleLooper.start(in: self, and: true)
+```
+
