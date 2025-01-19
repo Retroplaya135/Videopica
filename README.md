@@ -17,3 +17,14 @@ An iOS native application toolkit built in Swift to manage folders, create and d
 3. **Video Playback**:
    - Play a single video in a loop.
    - Play multiple videos sequentially or in a loop.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following:
+- macOS with Xcode installed.
+- iOS device or simulator.
+- Basic familiarity with Swift and iOS development.
