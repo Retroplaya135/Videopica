@@ -55,3 +55,14 @@ Ensure you have the following:
 ### Video Management
 - Import videos into the app using the photo library or file picker.
 - Delete unwanted videos directly from the app interface.
+
+
+
+### Video Playback
+
+#### Single Video Playback
+- Play a single video in a loop using the `SingleVideoLooper` class:
+  ```swift
+  let videoLooper = SingleVideoLooper(asset: yourAVAsset)
+  videoLooper.start(in: self, andloop: true)
+  ```
