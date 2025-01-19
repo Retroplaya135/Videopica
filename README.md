@@ -46,3 +46,12 @@ Ensure you have the following:
 3. Build and run the app on your device or simulator.
 
 ---
+
+## Usage
+
+### Folder Management
+- Use the app's folder management UI to create, delete, or edit folders to organize your video files.
+
+### Video Management
+- Import videos into the app using the photo library or file picker.
+- Delete unwanted videos directly from the app interface.
