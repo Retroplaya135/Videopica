@@ -28,3 +28,21 @@ Ensure you have the following:
 - macOS with Xcode installed.
 - iOS device or simulator.
 - Basic familiarity with Swift and iOS development.
+
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/ios-video-manager-toolkit.git
+   cd ios-video-manager-toolkit
+   ```
+
+2. Open the project in Xcode:
+   ```bash
+   open VideoManager.xcodeproj
+   ```
+
+3. Build and run the app on your device or simulator.
+
+---
