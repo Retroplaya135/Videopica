@@ -109,3 +109,22 @@ let multipleLooper = MultipleVideoLooper(assetItems: [asset1, asset2, asset3])
 multipleLooper.start(in: self, and: true)
 ```
 
+
+
+### Convert PHAsset to AVAsset
+```swift
+let assetConverter = PHAssetConverter()
+assetConverter.getAVAsset(yourPHAsset) { avAsset, thumbnail in
+    // Use avAsset and thumbnail as needed
+}
+```
+
+---
+
+## Requirements
+
+- iOS 14.0+.
+- Swift 5.
+- AVFoundation and Photos frameworks.
+
+---
