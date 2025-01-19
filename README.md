@@ -128,3 +128,17 @@ assetConverter.getAVAsset(yourPHAsset) { avAsset, thumbnail in
 - AVFoundation and Photos frameworks.
 
 ---
+
+
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
