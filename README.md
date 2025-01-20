@@ -25,6 +25,7 @@ An Open-source, free to use iOS native application toolkit built in Swift to man
 ### Prerequisites
 
 Ensure you have the following:
+- An Apple device running MacOS. 
 - macOS with Xcode installed.
 - iOS device or simulator.
 - Basic familiarity with Swift and iOS development.
