@@ -136,7 +136,7 @@ assetConverter.getAVAsset(yourPHAsset) { avAsset, thumbnail in
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Can be used freely without permission for any type of distribution, granted that assets and project names are changes.
 
 ---
 
