@@ -56,6 +56,8 @@ Ensure you have the following:
 ### Video Management
 - Import videos into the app using the photo library or file picker.
 - Delete unwanted videos directly from the app interface.
+- Add videos to be looped as many times as you want.
+- Setting a framework that acts as a plug and play system. 
 
 
 
