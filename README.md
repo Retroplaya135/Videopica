@@ -129,6 +129,7 @@ assetConverter.getAVAsset(yourPHAsset) { avAsset, thumbnail in
 - iOS 14.0+.
 - Swift 5.
 - AVFoundation and Photos frameworks.
+- MacOS Catalina and above.
 
 ---
 
