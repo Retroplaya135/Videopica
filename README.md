@@ -2,7 +2,7 @@
 
 # iOS Video Manager Toolkit
 
-An iOS native application toolkit built in Swift to manage folders, create and delete videos, and play videos either in a loop or sequentially. The app provides functionalities for seamless video playback using AVFoundation.
+An Open-source, free to use iOS native application toolkit built in Swift to manage folders, create and delete videos, and play videos either in a loop or sequentially. The app provides functionalities for seamless video playback using AVFoundation.
 
 ---
 
