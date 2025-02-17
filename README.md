@@ -5,7 +5,7 @@
 An Open-source, free to use iOS native application toolkit built in Swift to manage folders, create and delete videos, and play videos either in a loop or sequentially. The app provides functionalities for seamless video playback using AVFoundation. Serves as an starting point of media applications. Designed to easily adapt for different UIs, providing basic functoinality of playback framework. 
 
 ---
-
+# System Overview
 ```
 +------------------------------+
 |        Videopica App         |
