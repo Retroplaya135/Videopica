@@ -105,6 +105,18 @@ Ensure you have the following:
 3. Build and run the app on your device or simulator.
 
 ---
+```
++------------------------------------------------+
+|            Swift Classes & Functions          |
++------------------------------------------------+
+| 🔹 SingleVideoLooper                           |
+|   - Plays a single video in a loop            |
+| 🔹 MultipleVideoLooper                         |
+|   - Plays multiple videos sequentially        |
+| 🔹 PHAssetConverter                           |
+|   - Converts PHAssets to AVAssets             |
++------------------------------------------------+
+```
 
 ## Usage
 
