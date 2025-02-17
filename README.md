@@ -39,7 +39,7 @@ An Open-source, free to use iOS native application toolkit built in Swift to man
 
 ---
 
-# 
+# Video Playback Flow
 ```
 +-----------------------+
 |   User Selects Video  |
@@ -108,6 +108,9 @@ Ensure you have the following:
 3. Build and run the app on your device or simulator.
 
 ---
+
+# Core Components Architecture
+
 ```
 +------------------------------------------------+
 |            Swift Classes & Functions          |
@@ -151,17 +154,6 @@ Ensure you have the following:
   multipleLooper.start(in: self, and: true)
   ```
 
-# Contributing & Open Source Licensing
-
-```
-+------------------------------------------------+
-|          Open Source Contribution              |
-+------------------------------------------------+
-| 🔹 MIT Licensed                                |
-| 🔹 Fork & Submit Pull Requests                 |
-| 🔹 Modify freely for different UIs             |
-+------------------------------------------------+
-```
 
 ## Code Overview
 
@@ -215,6 +207,19 @@ assetConverter.getAVAsset(yourPHAsset) { avAsset, thumbnail in
 - MacOS Catalina and above.
 
 ---
+
+
+# Contributing & Open Source Licensing
+
+```
++------------------------------------------------+
+|          Open Source Contribution              |
++------------------------------------------------+
+| 🔹 MIT Licensed                                |
+| 🔹 Fork & Submit Pull Requests                 |
+| 🔹 Modify freely for different UIs             |
++------------------------------------------------+
+```
 
 
 
