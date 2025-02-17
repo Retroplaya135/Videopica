@@ -237,6 +237,27 @@ multipleLooper.start(in: self, and: true)
 |  (Executes Playback)       |
 +----------------------------+
 ```
+# Multiple Video Playback
+
+```
++-------------------------------+
+|  Multiple Video Playback Flow |
++-------------------------------+
+        |
+        v
++------------------------------+
+| MultipleVideoLooper          |
+| - Manages multiple videos    |
+| - Plays sequentially/loop    |
+| - Handles transitions        |
++------------------------------+
+        |
+        v
++----------------------------+
+|    AVFoundation            |
+|  (Executes Playback)       |
++----------------------------+
+```
 
 ### Convert PHAsset to AVAsset
 ```swift
