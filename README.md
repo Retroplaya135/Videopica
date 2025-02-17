@@ -39,6 +39,7 @@ An Open-source, free to use iOS native application toolkit built in Swift to man
 
 ---
 
+# 
 ```
 +-----------------------+
 |   User Selects Video  |
@@ -72,6 +73,8 @@ Ensure you have the following:
 - macOS with Xcode installed.
 - iOS device or simulator.
 - Basic familiarity with Swift and iOS development.
+
+# Folder & Video Management
 ```
 +--------------------------------------------------+
 |                  Folder System                   |
