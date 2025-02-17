@@ -148,6 +148,8 @@ Ensure you have the following:
   multipleLooper.start(in: self, and: true)
   ```
 
+# Contributing & Open Source Licensing
+
 ```
 +------------------------------------------------+
 |          Open Source Contribution              |
