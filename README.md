@@ -216,7 +216,27 @@ let multipleLooper = MultipleVideoLooper(assetItems: [asset1, asset2, asset3])
 multipleLooper.start(in: self, and: true)
 ```
 
+# Single Video Playback
 
+```
++-------------------------------+
+|  Single Video Playback Flow   |
++-------------------------------+
+        |
+        v
++------------------------------+
+| SingleVideoLooper            |
+| - Initializes video          |
+| - Starts looping playback    |
+| - Resets when finished       |
++------------------------------+
+        |
+        v
++----------------------------+
+|    AVFoundation            |
+|  (Executes Playback)       |
++----------------------------+
+```
 
 ### Convert PHAsset to AVAsset
 ```swift
