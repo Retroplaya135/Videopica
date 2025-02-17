@@ -6,6 +6,25 @@ An Open-source, free to use iOS native application toolkit built in Swift to man
 
 ---
 
+```
++------------------------------+
+|        Videopica App         |
+|   (iOS Video Manager)        |
++------------------------------+
+        |          |          |
+        v          v          v
++----------------+  +----------------+  +----------------+
+| Folder System |  | Video Manager  |  | Video Playback |
+| (Create, Edit)|  | (Import, Delete)|  | (Loop, Seq.)  |
++----------------+  +----------------+  +----------------+
+        |          |          |
+        v          v          v
++----------------------------------------------------+
+|               AVFoundation Framework               |
+| (Handles Video Processing & Playback)             |
++----------------------------------------------------+
+```
+
 ## Features
 
 1. **Folder Management**:
