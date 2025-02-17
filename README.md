@@ -171,7 +171,36 @@ Ensure you have the following:
    - Converts `PHAsset` objects into `AVAsset` for use with video playback.
    - Generates thumbnails for video previews.
 
+# Video Playback Flow
 
+```
++--------------------------------------+
+|      Video Playback Process         |
++--------------------------------------+
+        |
+        v
++-----------------------+
+|  User Selects Video  |
++-----------------------+
+        |
+        v
++----------------------------+
+|  PHAssetConverter          |
+|  (Convert PHAsset to AVAsset) |
++----------------------------+
+        |
+        v
++----------------------------+
+|  SingleVideoLooper         |
+|  (Loop Playback for One)   |
++----------------------------+
+        |
+        v
++----------------------------+
+|    AVFoundation            |
+|  (Handles Playback)        |
++----------------------------+
+```
 
 ## Example Code
 
