@@ -72,7 +72,7 @@ Ensure you have the following:
 - macOS with Xcode installed.
 - iOS device or simulator.
 - Basic familiarity with Swift and iOS development.
-
+```
 +--------------------------------------------------+
 |                  Folder System                   |
 |--------------------------------------------------|
@@ -87,7 +87,7 @@ Ensure you have the following:
 | 🔹 Delete unwanted videos                        |
 | 🔹 Store video metadata for playback preferences |
 +--------------------------------------------------+
-
+```
 
 ### Installation
 
