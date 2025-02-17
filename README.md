@@ -39,6 +39,30 @@ An Open-source, free to use iOS native application toolkit built in Swift to man
 
 ---
 
+```
++-----------------------+
+|   User Selects Video  |
++-----------------------+
+        |
+        v
++-----------------------+
+|  PHAssetConverter     |
+|  (Convert Video)      |
++-----------------------+
+        |
+        v
++----------------------------+
+|  SingleVideoLooper /       |
+|  MultipleVideoLooper       |
+|  (Loop or Sequential Play) |
++----------------------------+
+        |
+        v
++----------------------------+
+|    AVFoundation Playback   |
++----------------------------+
+```
+
 ## Getting Started
 
 ### Prerequisites
