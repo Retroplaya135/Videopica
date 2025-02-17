@@ -277,6 +277,17 @@ assetConverter.getAVAsset(yourPHAsset) { avAsset, thumbnail in
 - MacOS Catalina and above.
 
 ---
+```
++---------------------------------+
+|       System Requirements       |
++---------------------------------+
+| 🔹 iOS 14.0+                    |
+| 🔹 Swift 5                      |
+| 🔹 AVFoundation Framework       |
+| 🔹 Photos Framework             |
+| 🔹 MacOS Catalina or later      |
++---------------------------------+
+```
 
 
 # Contributing & Open Source Licensing
