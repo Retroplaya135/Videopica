@@ -73,6 +73,21 @@ Ensure you have the following:
 - iOS device or simulator.
 - Basic familiarity with Swift and iOS development.
 
++--------------------------------------------------+
+|                  Folder System                   |
+|--------------------------------------------------|
+| 🔹 Create, rename, and delete folders            |
+| 🔹 Organize videos within folders                |
++--------------------------------------------------+
+
++--------------------------------------------------+
+|                 Video Management                 |
+|--------------------------------------------------|
+| 🔹 Import videos from Photos or File Picker      |
+| 🔹 Delete unwanted videos                        |
+| 🔹 Store video metadata for playback preferences |
++--------------------------------------------------+
+
 
 ### Installation
 
