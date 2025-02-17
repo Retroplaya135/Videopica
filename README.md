@@ -148,7 +148,15 @@ Ensure you have the following:
   multipleLooper.start(in: self, and: true)
   ```
 
-
+```
++------------------------------------------------+
+|          Open Source Contribution              |
++------------------------------------------------+
+| 🔹 MIT Licensed                                |
+| 🔹 Fork & Submit Pull Requests                 |
+| 🔹 Modify freely for different UIs             |
++------------------------------------------------+
+```
 
 ## Code Overview
 
